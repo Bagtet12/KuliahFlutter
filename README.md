@@ -1,16 +1,8 @@
-# save_earth
+APLIKASI FLUTTER : SAVE EARTH
 
-A new Flutter project.
+Nama Kelompok :
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Bagas Tetuko (182410102021)
+Navisa Kholifatul Jannah (182410102023)
+Salsabila Indriani (182410102037)
+deskripsi singkat aplikasi Aplikasi Save Earth ini merupakan aplikasi yang akan membantu para relawan dalam menyebarluaskan info event yang diadakan untuk mengurangi perubahan iklim salah satunya reboisasi. Selain itu didalam aplikasi ini juga terdapat fitur e-commerce yang akan membantu para penjual pohon serta membantu para relawan atau pembeli dalam membeli pohon atau tanaman untuk kegiatan event tersebut maupun untuk mengurangi perubahan iklim dengan menanam tanaman .
