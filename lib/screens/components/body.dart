@@ -7,10 +7,12 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Column(
-      children: <Widget>[
-        HeaderWithSearchBox(size: size)
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: <Widget>[
+          HeaderWithSearchBox(size: size),
+        ],
+      ),
     );
   }
 }
