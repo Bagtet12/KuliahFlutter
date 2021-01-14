@@ -77,10 +77,14 @@ class RegisterPage extends State<register> {
           minWidth: 180.0,
           height: 42.0,
           onPressed: () {
+<<<<<<< HEAD
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => login()),
             );
+=======
+            Navigator.of(context).pushNamed(Login.tag);
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
           },
           color: Colors.pink.shade200,
           child: Text('Daftar', style: TextStyle(color: Colors.black)),
