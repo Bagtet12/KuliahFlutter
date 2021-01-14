@@ -20,7 +20,11 @@ class MyApp extends StatelessWidget {
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+<<<<<<< HEAD
       home: login(),
+=======
+      home: Login(),
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
     );
   }
 }
