@@ -12,6 +12,7 @@ import 'package:save_earth/screens/home/register.dart';
 //   }
 // }
 
+<<<<<<< HEAD
 class login extends StatefulWidget {
   static String tag = 'login-page';
   @override
@@ -20,6 +21,16 @@ class login extends StatefulWidget {
 }
 
 class loginPage extends State<login> {
+=======
+class Login extends StatefulWidget {
+  static String tag = 'login-page';
+  @override
+  LoginPage createState() => new LoginPage();
+
+}
+
+class LoginPage extends State<Login> {
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
 
@@ -35,7 +46,11 @@ class loginPage extends State<login> {
   }
 
   static String validatepassword(value){
+<<<<<<< HEAD
     if (value!= 'salsabila123') {
+=======
+    if (value!= 'user') {
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
       return "Password Salah!";
     } else {
       return null;
@@ -43,7 +58,11 @@ class loginPage extends State<login> {
   }
 
   static String validateusernamemasuk(value){
+<<<<<<< HEAD
     if (value!= 'salsabila@gmail.com' && value!= 'Salsabila@gmail.com') {
+=======
+    if (value!= 'user') {
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
       return "username salah!";
     } else {
       return null;
@@ -69,7 +88,11 @@ class loginPage extends State<login> {
             TextFormField(
               decoration: InputDecoration(
                   border: OutlineInputBorder(),
+<<<<<<< HEAD
                   labelText: "Email"
+=======
+                  labelText: "Email / Username"
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
               ),
               validator: validateusernamemasuk,
 
