@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:save_earth/constant.dart';
+<<<<<<< HEAD
 import 'package:save_earth/screens/home/login.dart';
+=======
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 
 class HeaderWithSearchBox extends StatelessWidget {
   const HeaderWithSearchBox({
@@ -18,7 +21,10 @@ class HeaderWithSearchBox extends StatelessWidget {
       height: size.height * 0.2,
       child: Stack(
         children: <Widget>[
+<<<<<<< HEAD
 
+=======
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
           Container(
             padding: EdgeInsets.only(
               left: kDefaultPadding,
@@ -31,15 +37,22 @@ class HeaderWithSearchBox extends StatelessWidget {
             ),
             child: Row(
               children: <Widget>[
+<<<<<<< HEAD
 
                 Text("Hi Salsabila", style: Theme.of(context).textTheme.headline5.copyWith(
+=======
+                Text("Hi Kamu", style: Theme.of(context).textTheme.headline5.copyWith(
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
                   color: Colors.white,
                   fontWeight:  FontWeight.bold,
                 ),
                 ),
                 Spacer(),
                 Image.asset("assets/images/logo2.png"),
+<<<<<<< HEAD
 
+=======
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
               ],
             ),
           ),
