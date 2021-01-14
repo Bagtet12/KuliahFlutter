@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:save_earth/screens/components/body.dart';
+import 'package:save_earth/constant.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:save_earth/screens/components/body.dart';
+import 'package:save_earth/screens/components/bottom_menu_nav.dart';
+
 
 class HomeScreen extends StatelessWidget{
   @override
@@ -8,7 +11,7 @@ class HomeScreen extends StatelessWidget{
     return Scaffold(
       appBar: buildAppBar(),
       body: Body(),
-
+      bottomNavigationBar: BottomMenuNav(),
     );
   }
 
@@ -22,3 +25,4 @@ class HomeScreen extends StatelessWidget{
     );
   }
 }
+

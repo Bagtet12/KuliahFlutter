@@ -1,9 +1,28 @@
 import 'package:flutter/material.dart';
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import '../../constant.dart';
+
+class TitleWithLainnyaBtn extends StatelessWidget {
+  const TitleWithLainnyaBtn({
+=======
+=======
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
 import '../../../constants.dart';
 
 class TitleWithBtn extends StatelessWidget {
   const TitleWithBtn({
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
     Key key,
     this.title,
     this.press,
@@ -18,7 +37,19 @@ class TitleWithBtn extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: kDefaultPadding),
       child: Row(
         children: [
+<<<<<<< Updated upstream
           TitleWithCustomUnderline(text: title),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+          TitleWithUnderline(text: title),
+=======
+          TitleWithCustomUnderline(text: title),
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+          TitleWithCustomUnderline(text: title),
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
           Spacer(),
           FlatButton(
             shape: RoundedRectangleBorder(
@@ -26,7 +57,19 @@ class TitleWithBtn extends StatelessWidget {
             ),
             color: kPrimaryColor,
             onPressed: press,
+<<<<<<< Updated upstream
             child: Text("Lainnya",style: TextStyle(color: Colors.white),
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            child: Text("Lainnya", style: TextStyle(color: Colors.white),
+=======
+            child: Text("Lainnya",style: TextStyle(color: Colors.white),
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+            child: Text("Lainnya",style: TextStyle(color: Colors.white),
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
             ),
           ),
         ],
@@ -48,7 +91,19 @@ class TitleWithUnderline extends StatelessWidget {
     return Container(
       height: 24,
       child: Stack(
+<<<<<<< Updated upstream
         children:[
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+        children: <Widget> [
+=======
+        children:[
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+        children:[
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
           Padding(
             padding: const EdgeInsets.only(left: kDefaultPadding / 4),
             child: Text(
@@ -65,7 +120,19 @@ class TitleWithUnderline extends StatelessWidget {
               height: 7,
               color: kPrimaryColor.withOpacity(0.2),
             ),
+<<<<<<< Updated upstream
           )
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+          ),
+=======
+          )
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+          )
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
         ],
       ),
     );
