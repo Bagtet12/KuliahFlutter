@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+<<<<<<< HEAD
 import 'package:save_earth/components/contohAPI.dart';
 import 'package:save_earth/screens/components/profil.dart';
+=======
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 
 import '../../constant.dart';
 
@@ -29,6 +32,7 @@ class BottomMenuNav extends StatelessWidget {
           ),
           IconButton(
             icon: SvgPicture.asset("assets/icons/heart-icon.svg") ,
+<<<<<<< HEAD
             onPressed: (){
               Navigator.push(
                 context,
@@ -44,6 +48,13 @@ class BottomMenuNav extends StatelessWidget {
                 MaterialPageRoute(builder: (context) => profil()),
               );
             },
+=======
+            onPressed: (){},
+          ),
+          IconButton(
+            icon: SvgPicture.asset("assets/icons/user-icon.svg") ,
+            onPressed: (){},
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
           ),
         ],
       ),
