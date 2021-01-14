@@ -55,7 +55,11 @@ class gambarkartu extends StatelessWidget {
                   ),
                 ],
                 image: DecorationImage(
+<<<<<<< HEAD
                   alignment: Alignment.center,
+=======
+                  alignment: Alignment.centerRight,
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
                   fit: BoxFit.cover,
                   image: AssetImage("assets/images/tanaman.png"),
                 ),
