@@ -1,8 +1,29 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+import '../../../constants.dart';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 import 'package:save_earth/screens/detail/detail_screen.dart';
 
 import '../../constant.dart';
 
+<<<<<<< HEAD
+=======
+=======
+
+import '../../../constants.dart';
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+
+import '../../../constants.dart';
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 
 class RecomendsTanaman extends StatelessWidget {
   const RecomendsTanaman({
@@ -15,11 +36,37 @@ class RecomendsTanaman extends StatelessWidget {
       scrollDirection: Axis.horizontal,
       child: Row(
         children: [
+<<<<<<< HEAD
           RecommendPlantCard(
+=======
+<<<<<<< Updated upstream
+          RecomendPlantCard(
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+          RecommendPlantCard(
+=======
+          RecomendPlantCard(
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+          RecomendPlantCard(
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
             image: "assets/images/tanaman_1.jpeg",
             title: "Salsabila",
             city: "Situbondo",
             price: 15000,
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+            press: () {},
+          ),
+          RecomendPlantCard(
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
             press: (){
               Navigator.push(
                   context,
@@ -30,10 +77,32 @@ class RecomendsTanaman extends StatelessWidget {
             },
           ),
           RecommendPlantCard(
+<<<<<<< HEAD
+=======
+=======
+            press: () {},
+          ),
+          RecomendPlantCard(
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+            press: () {},
+          ),
+          RecomendPlantCard(
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
             image: "assets/images/Tanaman-Hias-Daun.jpg",
             title: "Salsabila",
             city: "Situbondo",
             price: 20000,
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+            press: () {},
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
             press: (){Navigator.push(
               context,
               MaterialPageRoute(
@@ -55,6 +124,15 @@ class RecomendsTanaman extends StatelessWidget {
                 ),
               );
             },
+<<<<<<< HEAD
+=======
+=======
+            press: () {},
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+            press: () {},
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
           ),
         ],
       ),
@@ -62,6 +140,11 @@ class RecomendsTanaman extends StatelessWidget {
   }
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
 class RecommendPlantCard extends StatelessWidget {
   const RecommendPlantCard({
     Key key, this.image, this.title, this.city, this.price, this.press,
@@ -134,9 +217,27 @@ class RecommendPlantCard extends StatelessWidget {
                 ],
               ),
             ),
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
           ),
         ],
       ),
     );
   }
 }
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+
+
+=======
+=======
+
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+=======
+
+>>>>>>> 9c4b41d2bf5eba9e6eae1faea1750340e89f7a68
+>>>>>>> Stashed changes
+>>>>>>> 92c097c24a76eaa196736a96aa854bb88d218065
